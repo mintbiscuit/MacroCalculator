@@ -5,12 +5,12 @@
      * interest in weight loss or those that have specific fitness goals.     *
      * This application uses JavaFX to construct its GUI, and it uses an      *
      * accompanying style sheet to make it look pretty. :)                    *
-     * 									      *
+     *                                                                        *
      * Any questions/concerns/comments, please contact me from my website:    *
-     * 		http://imagine-reality.net				      *
-     * 									      *	
-     * 			Thanks,						      *
-     * 				Amelia					      *
+     * 		http://imagine-reality.net                                    *
+     * 	                                                                      *	
+     * 			Thanks,                                               *
+     * 				Amelia                                        *
      **************************************************************************/
 
 package app;
