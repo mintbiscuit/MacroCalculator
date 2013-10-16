@@ -1,0 +1,67 @@
+
+/* This is the overall stylesheet used for the MacroCalculator App to make it gorgeous */
+
+.root{
+    -fx-font-size: 12px;
+    -fx-background-image: url("h_bg.png");
+}
+
+
+/* Welcome Text */
+.welcome {
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-font-family: "Arial";
+    -fx-fill: #70877A;
+    -fx-effect: dropshadow( gaussian , rgba(245, 240, 215, 1) , 0,0,0,1 );
+}
+
+
+/* Label Text */
+.label {
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-text-fill: #918D7F;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow( gaussian , rgba(245, 240, 215, 1) , 0,0,0,1 );
+}
+
+
+/* TextField Text */
+.text-field {
+    -fx-font-size: 12px;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: normal;
+    -fx-text-fill: #93AA9D;
+    -fx-background-color: #948F82, #F2F2F2;
+    -fx-background-insets: 0, 1, 2, 3;
+    -fx-background-radius: 5px;
+    -fx-padding: 5 10 5 10;
+}
+
+
+/* Button Style */
+#button {
+    -fx-background-color: #948F82, linear-gradient(#BBD6C7, #94AEA0);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 10 20 10 20;
+    -fx-text-fill: #3F4D4B;
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(245, 240, 215, 1) , 0,0,0,1 );
+}
+
+
+/* Output Text */
+.output {
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-font-family: "Arial";
+    -fx-fill: #E49E23;
+    -fx-effect: dropshadow( gaussian , rgba(245, 240, 215, 1) , 0,0,0,1 );
+    -fx-padding: 5px;
+    -fx-text-alignment: center;
+}
