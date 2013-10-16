@@ -1,4 +1,3 @@
-
     /**************************************************************************
      * This application gathers calorie input from a user and displays ratios *
      * and a pie chart in the UI.   It is geared towards individuals with an  *
@@ -9,8 +8,8 @@
      * Any questions/concerns/comments, please contact me from my website:    *
      * 		http://imagine-reality.net                                    *
      * 	                                                                      *	
-     * 			Thanks,                                               *
-     * 				Amelia                                        *
+     *      Thanks,                                                           *
+     *         Amelia                                                         *
      **************************************************************************/
 
 package app;
