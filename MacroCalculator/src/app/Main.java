@@ -1,17 +1,16 @@
 
-
-	/**************************************************************************
+    /**************************************************************************
      * This application gathers calorie input from a user and displays ratios *
      * and a pie chart in the UI.   It is geared towards individuals with an  *
      * interest in weight loss or those that have specific fitness goals.     *
-     * This application uses JavaFX to construct its GUI, and it uses an     *
+     * This application uses JavaFX to construct its GUI, and it uses an      *
      * accompanying style sheet to make it look pretty. :)                    *
-     * 																          *
+     * 									      *
      * Any questions/concerns/comments, please contact me from my website:    *
-     * 		http://imagine-reality.net										  *
-     * 																		  *
-     * 			Thanks,														  *
-     * 				Amelia													  *
+     * 		http://imagine-reality.net				      *
+     * 									      *	
+     * 			Thanks,						      *
+     * 				Amelia					      *
      **************************************************************************/
 
 package app;
@@ -155,8 +154,8 @@ public class Main extends Application {
         	output.setText(s);
             
             // A few small functions to be thrown into the pieChartData
-            Double t_f = ((fat * 9) / cal) * 100;				// Fat percent
-            Double t_p = ((protein * 4) / cal) * 100;			// Protein percent
+            Double t_f = ((fat * 9) / cal) * 100;		// Fat percent
+            Double t_p = ((protein * 4) / cal) * 100;		// Protein percent
             Double t_c = (((carb - fiber) * 4) / cal) * 100;	// Carb percent
             
             // Add macro percentages to the pie chart
@@ -207,11 +206,11 @@ public class Main extends Application {
      * 4 cal per gram of protein/carb and 9 cal per fat. It will multiply the *
      * amount by 100 to get an easily read percentage.                        *
      *                                                                        *
-     * @param c (Total Calories)											  *
-     * @param f (Total Fat)													  *
-     * @param p (Total Protein)												  *
-     * @param cb (Total Carbs)												  *
-     * @param fi (Total Fiber)												  *
+     * @param c (Total Calories)					      *
+     * @param f (Total Fat)						      *
+     * @param p (Total Protein)						      *
+     * @param cb (Total Carbs)						      *
+     * @param fi (Total Fiber)						      *
      * @return A string storing the % of each macro in regards to total cals  *
      **************************************************************************/
 
