@@ -6,8 +6,8 @@
      * accompanying style sheet to make it look pretty. :)                    *
      *                                                                        *
      * Any questions/concerns/comments, please contact me from my website:    *
-     * 		http://imagine-reality.net                                    *
-     * 	                                                                      *	
+     *        http://imagine-reality.net                                      *
+     *                                                                        *	
      *      Thanks,                                                           *
      *         Amelia                                                         *
      **************************************************************************/
